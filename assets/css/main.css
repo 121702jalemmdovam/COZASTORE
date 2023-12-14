@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+main {
+  position: relative;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  width: 85%;
+  margin: auto;
+}
+header nav .collapseDiv .navbar-nav .navItem {
+  color: #222222;
+  font-size: 13px;
+  font-weight: 600;
+}
+header nav .collapseDiv .navbar-nav .navItem:hover {
+  color: #717fe0;
+}
+header nav .collapseDiv .sideRight {
+  width: 500px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 20px;
+}
+header nav .collapseDiv .sideRight a {
+  text-decoration: none;
+  background-color: transparent;
+  margin-right: 20px;
+}
+
+#Collection {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://preview.colorlib.com/theme/cozastore/images/slide-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Collection .container {
+  margin-top: 20px;
+}
+#Collection .container .CollectionItem {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#Collection .container .CollectionItem span {
+  font-family: Poppins-Regular;
+  font-size: 28px;
+  color: black;
+}
+#Collection .container .CollectionItem h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #212529;
+}
+#Collection .container .CollectionItem button {
+  width: 120px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  background-color: #717fe0;
+  color: white;
+  font-weight: 600;
+}
+#Collection .container .CollectionItem button:hover {
+  background-color: black;
+  cursor: p;
+}
+
+#Spring {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#Spring .container {
+  margin-top: 20px;
+}
+#Spring .container .SpringCard {
+  width: 100%;
+  height: auto;
+  border: 1px solid #EBE7E4;
+  position: relative;
+  margin: 10px;
+}
+#Spring .container .SpringCard .text {
+  position: absolute;
+  margin-top: 10px;
+  padding: 20px;
+}
+#Spring .container .SpringCard .text h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+#Spring .container .SpringCard .text span {
+  font-size: 13px;
+}
+#Spring .container .SpringCard img {
+  width: 100%;
+  height: auto;
+}
+
+#Overwiev {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#Overwiev .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+#Overwiev .container .OverwievItem {
+  display: flex;
+  flex-direction: column;
+}
+#Overwiev .container .OverwievItem ul {
+  display: flex;
+  margin-top: 20px;
+  gap: 30px;
+}
+#Overwiev .container .OverwievItem ul li {
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #888;
+}
+#Overwiev .container .OverwievItem ul li:hover {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+#Products {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Products .container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Products .container .Apiproduct {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 20px;
+}
+#Products .container .Apiproduct #productList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+#Products .container .Apiproduct #productList .boxDiv {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+#Products .container .Apiproduct #productList .boxDiv img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .foot {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .foot .footItem {
+  margin-top: 10px;
+}
+footer .foot .footItem span {
+  color: white;
+  font-size: 11px;
+}
+
+.fa-solid {
+  margin-right: 20px;
+}
